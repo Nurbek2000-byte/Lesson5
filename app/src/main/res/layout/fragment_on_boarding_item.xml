@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoardingItemFragment">
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="290dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/logo" />
+
+
+    <TextView
+        android:id="@+id/item_title"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/image_logo"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:text="Welcome to Surf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/item_description"
+        android:layout_marginTop="24sp"
+        android:layout_below="@id/item_title"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:lineHeight="24dp"
+        android:textColor="#202B2E"
+        android:textAlignment="center"
+        android:paddingHorizontal="48dp"
+        android:text="I provide essential stuff for your ui designs every tuesdays "
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
